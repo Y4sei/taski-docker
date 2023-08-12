@@ -1,4 +1,5 @@
 import os
+
 from pathlib import Path
 
 
@@ -9,7 +10,6 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'default_key')
 DEBUG = os.getenv('DEBUG') == 'True'
 
 ALLOWED_HOSTS = ['158.160.3.109', '127.0.0.1', 'localhost', 'yaseiwebproject.myvnc.com']
-
 
 # Application definition
 
